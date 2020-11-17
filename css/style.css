@@ -34,7 +34,6 @@
     line-height: 50px;
     color: rgb(40, 29, 189)!important;
     font-size: 25px!important;
-    background-color: #1b1b1f;
 }
 
 .owl-next {
@@ -48,7 +47,10 @@
     line-height: 50px;
     color: rgb(40, 29, 189)!important;
     font-size: 25px!important;
-    background-color: #1b1b1f;
+}
+
+.owl-prev:hover, .owl-next:hover {
+    background: transparent!important;
 }
 
 .owl-theme .owl-dots .owl-dot {
@@ -87,7 +89,7 @@
 }
 
 .animate-heading {
-    animation: bounceInDown 1s;
+    animation: bounceInDown 1.5s;
     opacity: 1;
 }
 
