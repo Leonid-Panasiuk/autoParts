@@ -1,0 +1,109 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.owl-sile-1 {
+    background-image: url(../img/owl-slide-1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.owl-sile-2 {
+    background-image: url(../img/owl-slide-2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+
+.owl-prev {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    z-index: 200;
+    text-align: center;
+    line-height: 50px;
+    color: rgb(40, 29, 189)!important;
+    font-size: 25px!important;
+    background-color: #1b1b1f;
+}
+
+.owl-next {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    z-index: 200;
+    text-align: center;
+    line-height: 50px;
+    color: rgb(40, 29, 189)!important;
+    font-size: 25px!important;
+    background-color: #1b1b1f;
+}
+
+.owl-theme .owl-dots .owl-dot {
+    outline: none;
+}
+
+.owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev, .owl-carousel button.owl-dot {
+    outline: none;
+}
+
+
+.owl-dots{
+    position: absolute;
+    bottom:10px;
+    left:25%;
+    right:25%;
+}
+
+.olw-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.olw-slide h1 {
+    color: #fff;
+    font-size: 30px;
+}
+
+
+.hero-heading {
+    opacity: 0;
+    text-align: center;
+    font-size: 35px;
+}
+
+.animate-heading {
+    animation: bounceInDown 1s;
+    opacity: 1;
+}
+
+@keyframes bounceInDown {
+    0% {
+       opacity: 0;
+       transform: translateY(-2000px);
+    }
+    60% {
+       opacity: 1;
+       transform: translateY(30px);
+    }  
+    80% {
+       transform: translateY(-10px);
+    }
+    100% {
+       transform: translateY(0);
+    }
+ }
